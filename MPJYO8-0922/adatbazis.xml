@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<adatbazis>
+    <dolgozo>
+        <kod>999</kod>
+        <nev>Kovacs Janos</nev>
+        <fizetes></fizetes>
+        <body>999999</body>
+    </dolgozo>
+</adatbazis>
