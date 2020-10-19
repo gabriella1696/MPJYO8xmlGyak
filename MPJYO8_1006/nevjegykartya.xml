@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartya id="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/Gabriella/Desktop/egyetem/xml/MPJYO8_1006/nevjegykartya.xsd">
+    <nev>
+        Hz Gabriella
+    </nev>
+    <ceg>
+        <cim>
+            <iranyitoszam>
+                3980
+            </iranyitoszam>
+            <varos>
+                Satoraljaujhely
+            </varos>
+            <utca>
+                Karolyi
+            </utca>
+            <hazszam> 7 </hazszam>
+
+        </cim>
+        <nev>
+            Sajat Menp Ceg Kft.
+        </nev>
+        <telefonszam korzet="36"> 123456 </telefonszam>
+        <weblap>
+            hipermenciweblap.hu
+        </weblap>
+    </ceg>
+    <beosztas>
+        Assistant to the Boss's Cat
+    </beosztas>
+    <telefonszam korzet="36"> 123456 </telefonszam>
+    <email>
+        gabriella@hipermenciceg.hu
+    </email>
+</nevjegykartya>

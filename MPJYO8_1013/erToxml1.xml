@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/Gabriella/Desktop/egyetem/xml/MPJYO8_1013/erTOxsd.xsd">
+    <A a1="3008">
+        <B>string</B>
+        <C>string</C>
+    </A>
+    <B b1="1003"/>
+    <B b1="-2724"/>
+    <B b1="4386"/>
+    <B b1="-3333"/>
+    <B b1="-471"/>
+    <C c1="-857"/>
+    <C c1="1581"/>
+    <C c1="-3925"/>
+    <AC ac1="3008"/>
+</fo>
