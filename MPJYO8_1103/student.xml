@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<class>
+    <stundet rollno = "393">
+        <firstname>Alexandra</firstname>
+        <lastname>Fekete</lastname>
+        <nickname>alefek</nickname>
+        <age>20</age>
+    </stundet>
+    <stundet rollno = "493">
+        <firstname>Alex</firstname>
+        <lastname>Tóth</lastname>
+        <nickname>toti</nickname>
+        <age>21</age>
+    </stundet>
+    <stundet rollno = "593">
+        <firstname>David</firstname>
+        <lastname>Balogh</lastname>
+        <nickname>davi</nickname>
+        <age>24</age>
+    </stundet>
+</class>

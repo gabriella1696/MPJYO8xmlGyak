@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia>
+    <cim>bevezetes az xml vilagaba</cim>
+    <hallgatok>
+        <hallgato id="1">
+            <nev>hazi gabriella</nev>
+            <lakcim>3980, sujhely, karolyi 7</lakcim>
+        </hallgato>
+    </hallgatok>
+    <helyszin>37-es eloado</helyszin>
+    <eloado id="1">
+        <nev>dr. bednarik laszlo</nev>
+        <adoszam>123456789</adoszam>
+        <lakcim>3980, sujhely, karolyi 3</lakcim>
+    </eloado>
+    <datum>2020-02-20</datum>
+
+</konferencia>
