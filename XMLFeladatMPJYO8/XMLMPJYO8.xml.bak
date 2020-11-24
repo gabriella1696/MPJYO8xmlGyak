@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<db>
+    
+    <tancos>
+        <nev></nev>
+        <lakcim>
+            <varos></varos>
+            <utca></utca>
+            <hazszam></hazszam>
+        </lakcim>
+        <minosites></minosites>
+        <szemigszam id="001">ASD123</szemigszam>
+        <evetancol></evetancol>
+    </tancos>  
+    
+    <egyuttes>
+        <nev></nev>
+        <vezetok>
+            
+        </vezetok>
+        <alapitaseve></alapitaseve>
+    </egyuttes>
+    
+    <szertar>
+        <id></id>
+        <tulajdonos>
+            
+        </tulajdonos>
+        <cim>
+            <varos></varos>
+            <utca></utca>
+            <hazszam></hazszam>
+        </cim>
+    </szertar>
+    
+    <rendezveny>
+        <id></id>
+        <helyszin></helyszin>
+        <datum></datum>
+    </rendezveny>
+    
+    <szervezo>
+        <szemigszam></szemigszam>
+        <nev></nev>
+        <beosztas></beosztas>
+    </szervezo>
+    
+</db>

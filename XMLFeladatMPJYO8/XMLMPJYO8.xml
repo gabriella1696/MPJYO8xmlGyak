@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rendezvenyszervezes>
+    
+    <szervezok>
+        <szervezo szervezoszemigszam="íyxc123">
+            <nev>Kedves Ferenc</nev>
+            <beosztas>nagyfonok</beosztas>        
+        </szervezo>
+        <szervezo szervezoszemigszam="asdf456">
+            <nev>Nemkedves Ferenc</nev>
+            <beosztas>kisfonok</beosztas>        
+        </szervezo>
+        <szervezo szervezoszemigszam="qwer789">
+            <nev>Figy Elek</nev>
+            <beosztas>ehberes</beosztas>        
+        </szervezo>
+    </szervezok>
+
+    <rendezvenyek>
+        <rendezveny rendezvenyref="3" szervezoszemigszam="íyxc123">
+            <helyszin>Soroksar</helyszin>
+            <datum>10.10.2010.</datum>
+        </rendezveny>
+        <rendezveny rendezvenyref="4" szervezoszemigszam="asdf456">
+            <helyszin>Satoraljaujhely</helyszin>
+            <datum>11.11.2011.</datum>
+        </rendezveny>
+        <rendezveny rendezvenyref="5" szervezoszemigszam="asdf456">
+            <helyszin>Miskolc</helyszin>
+            <datum>09.09.2009.</datum>
+        </rendezveny>
+    </rendezvenyek>
+    
+    <tancosok>
+        <tancos tancosszemigszam="íaq147" egyuttesnev="hegyalja">
+            <nev>Kis Elek</nev>
+            <lakcim>
+                <varos>Eger</varos>
+                <uhsz>Whatever 1</uhsz>
+            </lakcim>
+            <minosites>Nincs</minosites>
+        </tancos>
+        <tancos tancosszemigszam="wsy852" egyuttesnev="szinva">
+            <nev>Kis Jenő</nev>
+            <lakcim>
+                <varos>Eger</varos>
+                <uhsz>Eper 3</uhsz>
+            </lakcim>
+            <minosites>Nincs</minosites>
+        </tancos>
+        <tancos tancosszemigszam="íaq147" egyuttesnev="hegyalja">
+            <nev>Mezei Virág</nev>
+            <lakcim>
+                <varos>Miskolc</varos>
+                <uhsz>Elfogyottazotletem 9</uhsz>
+            </lakcim>
+            <minosites>Aranysarkantyú</minosites>
+        </tancos>
+    </tancosok>
+    
+    <egyuttesek>
+        <egyuttes egyuttesnev="hegyalja" rendezvenyref="3">
+            <vezeto>Horváth Csaba Hobó</vezeto>
+            <alapitaseve>10.27.1968.</alapitaseve>
+        </egyuttes>
+        <egyuttes egyuttesnev="szinva" rendezvenyref="4">
+            <vezeto>Merész Teréz</vezeto>
+            <alapitaseve>08.05.2009.</alapitaseve>
+        </egyuttes>
+        <egyuttes egyuttesnev="uti-poti" rendezvenyref="5">
+            <vezeto>Sztár Pál</vezeto>
+            <alapitaseve>11.01.2012.</alapitaseve>
+        </egyuttes>
+    </egyuttesek>
+    
+    <kolcsonzesek>
+        <kolcsonzes egyuttesnev="hegyalja" szertarid="0">
+            <viselet>szatmári</viselet>
+            <kiaddatum>10.10.2010.</kiaddatum>
+            <visszadatum>20.10.2010.</visszadatum>
+        </kolcsonzes>
+        <kolcsonzes egyuttesnev="hegyalja" szertarid="0">
+            <viselet>mezőségi</viselet>
+            <kiaddatum>11.11.2011.</kiaddatum>
+            <visszadatum>21.11.2011.</visszadatum>
+        </kolcsonzes>
+        <kolcsonzes egyuttesnev="uti-poti" szertarid="0">
+            <viselet>rábaközi</viselet>
+            <kiaddatum>15.05.2015.</kiaddatum>
+            <visszadatum>16.06.2016.</visszadatum>
+        </kolcsonzes>
+    </kolcsonzesek>
+    
+    <szertarak>
+        <szertar szertarid="0">
+            <cim>
+                <varos>Miskolc</varos>
+                <uhsz>Nemtudom 2</uhsz>
+            </cim>
+            <tulaj>Miksolc Nemzeti Színház</tulaj>
+        </szertar>
+        <szertar szertarid="1">
+            <cim>
+                <varos>Sátoraljaújhely</varos>
+                <uhsz>Színházköz</uhsz>
+            </cim>
+            <tulaj>KLMK</tulaj>
+        </szertar>
+        <szertar szertarid="2">
+            <cim>
+                <varos>Óhatpusztapócs</varos>
+                <uhsz>Nincsisilyenutca 666</uhsz>
+            </cim>
+            <tulaj>Óhatpusztapócsi Pócskik</tulaj>
+        </szertar>
+    </szertarak>
+    
+</rendezvenyszervezes>

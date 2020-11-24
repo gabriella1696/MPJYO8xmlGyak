@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning">
+  <xs:element name="rendezvenyszervezes" type="rendezvenyszervezes_type"/>
+  
+    <xs:element name="rendezvenyszervezes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="szervezok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="szervezo" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="nev"/>
+                                        <xs:element type="xs:string" name="beosztas"/>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:string" name="szervezoszemigszam" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="rendezvenyek">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="rendezveny" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="helyszin"/>
+                                        <xs:element type="xs:string" name="datum"/>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:byte" name="rendezvenyref" use="optional"/>
+                                    <xs:attribute type="xs:string" name="szervezoszemigszam" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="tancosok">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="tancos" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="nev"/>
+                                        <xs:element name="lakcim">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="varos"/>
+                                                    <xs:element type="xs:string" name="uhsz"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="minosites"/>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:string" name="tancosszemigszam" use="optional"/>
+                                    <xs:attribute type="xs:string" name="egyuttesnev" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="egyuttesek">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="egyuttes" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="vezeto"/>
+                                        <xs:element type="xs:string" name="alapitaseve"/>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:string" name="egyuttesnev" use="optional"/>
+                                    <xs:attribute type="xs:byte" name="rendezvenyref" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="kolcsonzesek">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="kolcsonzes" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="viselet"/>
+                                        <xs:element type="xs:string" name="kiaddatum"/>
+                                        <xs:element type="xs:string" name="visszadatum"/>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:string" name="egyuttesnev" use="optional"/>
+                                    <xs:attribute type="xs:byte" name="szertarid" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="szertarak">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="szertar" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="cim">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="varos"/>
+                                                    <xs:element type="xs:string" name="uhsz"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="tulaj"/>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:byte" name="szertarid" use="optional"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
