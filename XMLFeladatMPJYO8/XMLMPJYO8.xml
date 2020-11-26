@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rendezvenyszervezes>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rendezvenyszervezes>
     
     <szervezok>
         <szervezo szervezoszemigszam="íyxc123">
@@ -12,7 +11,7 @@
         </szervezo>
         <szervezo szervezoszemigszam="qwer789">
             <nev>Figy Elek</nev>
-            <beosztas>ehberes</beosztas>        
+            <beosztas>ehberes</beosztas>
         </szervezo>
     </szervezok>
 
@@ -32,7 +31,7 @@
     </rendezvenyek>
     
     <tancosok>
-        <tancos tancosszemigszam="íaq147" egyuttesnev="hegyalja">
+        <tancos egyuttesnev="hegyalja" tancosszemigszam="íaq147">
             <nev>Kis Elek</nev>
             <lakcim>
                 <varos>Eger</varos>
@@ -40,7 +39,7 @@
             </lakcim>
             <minosites>Nincs</minosites>
         </tancos>
-        <tancos tancosszemigszam="wsy852" egyuttesnev="szinva">
+        <tancos egyuttesnev="szinva" tancosszemigszam="wsy852">
             <nev>Kis Jenő</nev>
             <lakcim>
                 <varos>Eger</varos>
@@ -48,7 +47,7 @@
             </lakcim>
             <minosites>Nincs</minosites>
         </tancos>
-        <tancos tancosszemigszam="íaq147" egyuttesnev="hegyalja">
+        <tancos egyuttesnev="hegyalja" tancosszemigszam="íaq147">
             <nev>Mezei Virág</nev>
             <lakcim>
                 <varos>Miskolc</varos>

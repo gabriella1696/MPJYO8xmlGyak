@@ -1,9 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema"
-  xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning">
-  <xs:element name="rendezvenyszervezes" type="rendezvenyszervezes_type"/>
-  
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="rendezvenyszervezes">
         <xs:complexType>
             <xs:sequence>
@@ -55,8 +50,8 @@
                                         </xs:element>
                                         <xs:element type="xs:string" name="minosites"/>
                                     </xs:sequence>
-                                    <xs:attribute type="xs:string" name="tancosszemigszam" use="optional"/>
                                     <xs:attribute type="xs:string" name="egyuttesnev" use="optional"/>
+                                    <xs:attribute type="xs:string" name="tancosszemigszam" use="optional"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
