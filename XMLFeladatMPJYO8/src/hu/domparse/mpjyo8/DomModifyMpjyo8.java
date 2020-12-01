@@ -18,16 +18,21 @@ import java.io.IOException;
 public class DomModifyMpjyo8 {
     
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException, TransformerException {
+
+       //get input file
         File inputFile = new File("C:\\Users\\Gabriella\\Desktop\\XMLFeladatMPJYO8\\XMLMPJYO8.xml");
 
+        //document builder
         Document doc = DocumentBuilderFactory
                 .newInstance()
                 .newDocumentBuilder()
                 .parse(inputFile);
 
+        //init root element
         Element root = doc.getDocumentElement();
         root.normalize();
 
+        //rewrite the 2nd (so the third) post to "kisfonok"
         Node beosztas = doc.getElementsByTagName("beosztas").item(2);
 
         beosztas.setTextContent("kisfonok");
@@ -39,6 +44,7 @@ public class DomModifyMpjyo8 {
         StreamResult result = new StreamResult(inputFile);
         transformer.transform(source, result);
 
+        //if the modification is done this lets us know
         System.out.println("kesz");
     }
 }

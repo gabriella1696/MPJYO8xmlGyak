@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><rendezvenyszervezes>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<rendezvenyszervezes xmlns="XMLSchemaMPJYO8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="XMLSchemaMPJYO8.xsd">
     
     <szervezok>
         <szervezo szervezoszemigszam="íyxc123">
@@ -11,7 +13,7 @@
         </szervezo>
         <szervezo szervezoszemigszam="qwer789">
             <nev>Figy Elek</nev>
-            <beosztas>ehberes</beosztas>
+            <beosztas>kisfonok</beosztas>
         </szervezo>
     </szervezok>
 

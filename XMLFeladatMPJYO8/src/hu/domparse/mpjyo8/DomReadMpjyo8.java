@@ -14,19 +14,24 @@ import java.io.IOException;
 public class DomReadMpjyo8 {
 
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException {
+
+        //get input file
         File inputFile = new File("C:\\Users\\Gabriella\\Desktop\\XMLFeladatMPJYO8\\XMLMPJYO8.xml");
 
+        //document builder
         Document doc = DocumentBuilderFactory
                 .newInstance()
                 .newDocumentBuilder()
                 .parse(inputFile);
 
+        //init root and normalize
         Element root = doc.getDocumentElement();
         root.normalize();
 
         printDocument(root, "");
     }
 
+    //reading the xml document
     public static void printDocument(Node root, String separator) {
         String nodename = root.getNodeName();
         if (!nodename.contains("text")) {
